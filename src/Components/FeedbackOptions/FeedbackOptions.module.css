@@ -1,0 +1,23 @@
+.button_block {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 400px;
+    background-color: coral;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 4px rgba(80, 56, 34, 0.42);
+}
+
+.button_good {
+    width: 100px;
+    padding: 10px;
+    background-color: teal;
+    border: 0px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: wheat;
+}
+
+.button_good:not(:last-child) {
+    margin-right: 10px;
+}
